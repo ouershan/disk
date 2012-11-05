@@ -54,7 +54,7 @@ var clearSite = function(sitepath) {
 };
 
 if (process.argv.length > 2) {
-    var sitepath = path.join('/web/wwwroot/s2', process.argv[2]);
+    var sitepath = path.join('/web/wwwroot/tu', process.argv[2]);
     if (path.existsSync(sitepath)) {
         console.time('take');
         clearSite(sitepath);
